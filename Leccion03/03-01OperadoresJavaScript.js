@@ -88,8 +88,46 @@ z = a === c; //Revisa los valores, per tambien los tipos
 console.log(z)
 */
 
+/*
 //operador ternario 
 
 let resultado = (3>2) ? "verdadero" : "falso";
 
 console.log(resultado);
+*/
+
+/*
+//convertir string a number
+let miNumero = "20x";
+
+let edad = Number(miNumero);
+console.log(typeof edad);
+
+if (isNaN(edad)) {
+    console.log("No es un numero");
+} else {
+    let puede = (edad >= 18) ? "Puede votar" : "Muy joven para votar";
+
+    console.log(puede)
+}
+
+*/
+
+
+//Ejemplos de precedencia de operadores
+let x = 5;
+let y = 10;
+let z = ++x + y--;
+console.log(x);
+console.log(y);
+console.log(z);
+
+
+let resultado = 4 + 5 * 6 / 3; 
+console.log(resultado);
+
+resultado =  (4 + 5) * 6 / 3;
+console.log(resultado)
+
+
+
